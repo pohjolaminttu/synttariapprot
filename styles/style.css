@@ -1,10 +1,31 @@
 html {
     font-family: "Space Grotesk";
-    background-color:rgb(254, 185, 253);
+    text-align: center;
 }
+
 
 h1 {
     font-family: "Press Start 2P";
-    font-size: 70px;
+    font-size: 40px;
     color: rgb(242, 52, 160);
+    text-align: center;
+    text-shadow: 3px 3px 1px  rgb(254, 185, 253);
+}
+
+div#Alkublokki {
+    background-color: rgb(254, 185, 253);
+    color:  rgb(242, 52, 160);
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
+
+div#Info {
+    background-color: rgb(254, 185, 253);
+
+}
+
+.pikkuinfo p {
+    color: rgb(103, 103, 103);
+    text-decoration: wavy;
 }
