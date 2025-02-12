@@ -4,7 +4,7 @@ import { getDatabase, ref, set, get, onValue } from "https://www.gstatic.com/fir
 
 const firebaseConfig = {
     authDomain: "lovebuttonforwebsite.firebaseapp.com",
-    databaseURL: "https://lovebuttonforwebsite-default-rtdb.firebaseio.com/",
+    databaseURL: "https://console.firebase.google.com/u/0/project/lovebuttonforwebsite/database/lovebuttonforwebsite-default-rtdb/data/~2F",
     projectId: "lovebuttonforwebsite",
     storageBucket: "lovebuttonforwebsite.appspot.com",
     messagingSenderId: "1096809912576",
