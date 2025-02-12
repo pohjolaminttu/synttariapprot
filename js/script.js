@@ -1,15 +1,15 @@
-import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getDatabase, ref, set, get, onValue } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-database.js";
-
+import { initializeApp } from "firebase/app";
+import { getAnalyticsref, set, get, onValue } from "firebase/analytics";
 
 const firebaseConfig = {
+    apiKey: "AIzaSyCVPSDVdeocDwST38KSe1spFUre4-1y05M",
     authDomain: "lovebuttonforwebsite.firebaseapp.com",
-    databaseURL: "https://console.firebase.google.com/u/0/project/lovebuttonforwebsite/database/lovebuttonforwebsite-default-rtdb/data/~2F",
+    databaseURL: "https://lovebuttonforwebsite-default-rtdb.europe-west1.firebasedatabase.app/",
     projectId: "lovebuttonforwebsite",
-    storageBucket: "lovebuttonforwebsite.appspot.com",
+    storageBucket: "lovebuttonforwebsite.firebasestorage.app",
     messagingSenderId: "1096809912576",
-    //appId: "YOUR_APP_ID"
-    //apiKey: "YOUR_API_KEY"
+    appId: "1:1096809912576:web:0c4d578ba24cc5c781fbe5",
+    measurementId: "G-96H3HWWXCH"
 };
 
 const app = firebaseConfig.initializeApp(firebaseConfig);
