@@ -3,6 +3,10 @@ html {
     text-align: center;
 }
 
+body {
+    max-width: 100%;
+}
+
 
 h1 {
     font-family: "Press Start 2P";
@@ -20,7 +24,7 @@ h3 {
     text-shadow: 3px 3px 1px  rgb(254, 185, 253);
 }
 
-div#Alkublokki {
+.Alkublokki {
     background-color: rgb(254, 185, 253);
     color:  rgb(242, 52, 160);
     width: 65%;
@@ -33,6 +37,7 @@ div#Info {
     background-color: rgb(254, 185, 253);
     padding: 10px 10px 10px 10px;
     width: 70%;
+    margin: 0 auto;
 
 }
 
